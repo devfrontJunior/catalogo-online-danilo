@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    font-family: helvetica;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(249, 107, 41);
+}
+
+header2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(249, 107, 41);
+    padding: 0px 0 10px 0;
+}
+
+.logo {
+    margin: 10px 10px 10px 10px;
+}
+
+.slogan {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: fixed;
+    top: 10%;
+    left: 37%;
+    right: 10%;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+header2 a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 35px;
+    margin-left: 25px;
+}
+
+header2 a:hover {
+    text-decoration: underline;
+}
+
+.text-home h4 {
+    font-size: 14px;
+    position: static;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+/* ---------- Corpo do site -------- */
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px 0px;
+}
+
+.container1 {
+    border: bisque 3px solid;
+    border-radius: 40px;
+    margin: 30px 30px 0px;
+    cursor: pointer;
+    box-shadow: 0em 0 0.8em rgb(168, 168, 166);
+    width: 200px;
+    height: 150px;
+}
+
+.container1:hover {
+    width: 220px;
+    height: 180px;
+}
+
+div div p {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* --------- Rodapé --------- */
+
+footer {
+    background-color: rgb(155, 69, 29);
+    width: 90%;
+    text-align: center;
+    padding: 10px 0;
+    position: absolute;
+    bottom: 2%;
+    left: 5%;
+    right: 5%;
+    border-radius: 30px;
+}
+
+footer h4 {
+    margin-top: 5px;
+    padding-top: 5px;
+    color: white;
+}
+
+/* -------- Segunda Página ------- */
+
+.text-footer {
+    padding-bottom: 10px;
+}
+
+.quadros-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.info {
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    header {
+        height: auto;
+    }
+}
+
+.content {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    padding-bottom: 50px;
+}
+
+.footer4 {
+    background-color: rgb(11, 61, 105);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h5 {
+    color: white;
+    padding-top: 10px;
+}
+
+.header-btn {
+    background-color: rgb(255, 0, 0);
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0px 20px 0 0;
+}
+
+.header-btn:hover {
+    background-color: rgb(195, 81, 0);
+}
